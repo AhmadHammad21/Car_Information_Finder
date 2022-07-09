@@ -177,7 +177,10 @@ def put_text(img, text_height, text_width, dict_data):
 
 
 car_img = "car.png"
-username = "ahmadhammadtest123" # 7 credits left to use the api, so it's valid for more 8 runs only using "https://www.carregistrationapi.in/"
+
+# if the code shows error, this is somehow due to no credit in carregistrationapi, so make an account
+# and put the username down below, and it's going to work for sure
+username = "ahmadhammadtest123" # 5 credits left to use the api, so it's valid for more 5 runs only using "https://www.carregistrationapi.in/"
 
 
 plate_number, start_num, end_num, start_veh, end_veh = get_plate_number_and_coordinates(car_img)
